@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Exo 2', sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url(img/img.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    font-weight: 900;
+    font-size: 3em;
+    padding: .5em;
+    color: rgb(255, 255, 255);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3%;
+    border: 2px solid rgba(255,255,255,.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 5px 10px 0 black;
+    border-radius: 2em;
+}
+input{
+    padding: 0.7em;
+    font-weight: 700;
+    font-size: 1em;
+    margin-bottom: 0.8em;
+    width: 15em;
+    outline: none;
+    border-radius: 0.4em;
+    border: 1px solid aliceblue;
+    margin-right: 1em;
+}
+select{
+    text-align: center;
+    font-weight: 700;
+    padding: 0.7em;
+    font-size: 1em;
+    margin-bottom: 0.8em;
+    width: 10em;
+    outline: none;
+    border-radius: 0.4em;
+    border: 1px solid aliceblue;
+}
+button{
+    text-align: center;
+    font-weight: 900;
+    padding: 0.5em;
+    font-size: 1.2em;
+    margin-bottom: 0.8em;
+    width: 8em;
+    outline: none;
+    border-radius: 0.4em;
+    margin-top: 1em;
+    border: 1px solid aliceblue;
+    cursor: pointer;
+}
+button:hover{
+    font-weight: 900;
+    border: 2px solid rgb(7, 7, 7);
+}
+option{
+    font-weight: 900;
+}
+footer p{
+    font-size: 2em;
+    font-weight: 700;
+    padding: 5px;
+    margin-top: 30px;
+}
